@@ -3,14 +3,14 @@ GEM
   specs:
     httperfrb (0.3.12)
       open4
+    nio4r (2.5.8)
     open4 (1.3.4)
-    puma (2.8.2)
-      rack (>= 1.1, < 2.0)
-    rack (1.5.2)
+    puma (4.3.11)
+      nio4r (~> 2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   httperfrb (~> 0.3.12)
-  puma (~> 2.8.2)
+  puma (~> 4.3.11)
